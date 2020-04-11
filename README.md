@@ -45,6 +45,7 @@ Control your cookies! This extension is inspired by [Self-Destructing Cookies](h
 
 #### Development
 - `npm install` - Installs all dependencies
+- `npm install ts-loader@5.4.5` fix dependency bug
 - `npm run dev` - This will run the webpack watcher and automatically pack `/src/background.ts`, popup, and setting items and its dependencies to `/extension`
 - `npm run lint` - Runs the eslinter for JS files
 - `npm test` - Runs the test suite located in `/test`
